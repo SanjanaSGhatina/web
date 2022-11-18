@@ -1,0 +1,157 @@
+
+/* Descendant selector */
+div p{
+    color:blueviolet;
+}
+
+
+/* Child selector */
+div > p{
+    color: red;
+}
+
+/* Adjacent sibling selector */
+div + p{
+    color:chartreuse;
+}
+
+
+/* General sibling selector  */
+div ~ p{
+    color: teal;
+}
+
+.static{
+    position:static;
+    left: 100px;
+}
+
+.relative{
+    position: relative;
+    
+}
+
+.absolute{
+    top: -200px ;
+    right: -300px;
+    position: relative;
+    
+}
+
+.topleft{
+    position: absolute;
+    top:0;
+    right: -10px;
+    left: 0px;
+    font-size: 30px;
+}
+
+.topleft1{
+    position: absolute;
+    top: 30px;;
+    right: -20px;
+    left: 0px;
+    font-size: 30px;
+}
+
+.topleft2{
+    position: absolute;
+    top: 60px;;
+    right: -20px;
+    left: 0px;
+    font-size: 30px;
+}
+
+.topleft3{
+    position: absolute;
+    top: 90px;;
+    right: -20px;
+    left: 0px;
+    font-size: 30px;
+}
+
+
+.topleft4{
+    position: absolute;
+    top: 120px;;
+    right: -20px;
+    left: 0px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+.topleft5{
+    position: absolute;
+    top: 0px;;
+    right: -20px;
+    left: 1000px;
+    font-size: 30px;
+}
+
+.topleft6{
+    position: absolute;
+    top: 30px;;
+    right: -20px;
+    left: 1000px;
+    font-size: 30px;
+}
+
+.topleft7{
+    position: absolute;
+    top: 60px;;
+    right: -20px;
+    left: 1000px;
+    font-size: 30px;
+}
+
+.topleft8{
+    position: absolute;
+    top: 90px;;
+    right: -20px;
+    left: 1000px;
+    font-size: 30px;
+}
+
+.topleft9{
+    position: absolute;
+    top: 120px;;
+    right: -20px;
+    left: 1000px;
+    font-size: 30px;
+}
+
+
+.imageparent{
+    position: relative;
+}
+
+
+.fixed{
+    position: fixed;
+    top:600px;
+    right: 20px;
+    left: 10px;
+    background-color: aqua;
+
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: red;
+}
+
+
+ul{
+    list-style-type:armenian;
+    background-color: burlywood;
+}
+
+li{
+    padding: 3px;
+   
+}

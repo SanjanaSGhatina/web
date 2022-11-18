@@ -1,0 +1,35 @@
+form{
+   background-color: aqua;
+    margin: auto;
+    width: 800px;
+    border: 2px solid black;
+    padding: 30px;
+}
+
+h2{
+    color: brown;
+    font-size:20px;
+}
+
+img{
+    float:right;
+    height:150px;
+    width: 150px;
+}
+
+.ha{
+    color: blue;
+}
+
+.ba{
+    float: right;
+}
+
+body{
+    background-color: blueviolet;
+}
+    @media screen and (min-width:480px){
+        body{
+            background-color: beige;
+        }
+    }
