@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    
+    
+
+    <style>
+        .top{
+            
+            padding: 0px 20px;;
+        }
+        form{
+            background-color: aquamarine;
+            margin: auto;
+            border: 2px solid black;
+            width:800px;
+
+        }
+        
+        input[type=button]{
+            margin: 0px 20px;
+
+        }
+        p{
+            margin: 20px 100px;
+            
+
+        }
+        
+    </style>
+     <script>
+        function multiplyBy(){
+            num1=document.getElementById("first").value;
+            num2=document.getElementById("second").value;
+            document.getElementById("result").innerHTML = num1 * num2;
+        }
+
+        function add(){
+           num1=document.getElementById("first").value;
+            num2=document.getElementById("second").value;
+            
+            document.getElementById("result").innerHTML = parseInt(num1) + parseInt(num2);
+        }
+
+
+         function sub(){
+           num1=document.getElementById("first").value;
+            num2=document.getElementById("second").value;
+            
+            document.getElementById("result").innerHTML = parseInt(num1) - parseInt(num2);
+        }
+
+        function div(){
+           num1=document.getElementById("first").value;
+            num2=document.getElementById("second").value;
+            
+            document.getElementById("result").innerHTML = parseInt(num1) / parseInt(num2);
+        }
+    </script>
+
+
+
+   
+</head>
+<body>
+   <form>
+    <br>
+    <div class="top">
+    First Number : <input type="text" id="first"/>
+    Second Number : <input type="text" id="second"/>
+    </div>
+    <hr>
+    <br>
+    <div class="">
+        <input type="button" class="btn btn-outline-secondary" onclick="multiplyBy()" value="Multiply"/>
+        <input type="button" class="btn btn-outline-success" onclick="add()"  value="Addition"/>
+        <input type="button" class="btn btn-outline-info" onclick="sub()"  value="Subtraction"/>
+        <input type="button"  class="btn btn-outline-warning" onclick="div()"  value="Division"/>
+    </div>
+    <br>
+    <p >The Result is :  
+        <span  id="result"> </span>
+       
+    </p>
+
+
+
+</form>
+</body>
+</html>
+
